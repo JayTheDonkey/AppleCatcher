@@ -5,18 +5,11 @@ import playn.core.Image;
 /**
  * Created by charl on 9/15/2016.
  */
-public class Apple {
+public class Apple extends Entity{
 
-    protected Image appleImg;
-    protected int[] coords = new int[2];
+    public Apple(int[] tempCoords, int[] tempVelocity, Image tempImage ) {
+        super(tempCoords, tempVelocity, tempImage);
 
-
-    public Apple() {
-
-    }
-
-    public int[] getCoords() {
-        return coords;
     }
 
 }
