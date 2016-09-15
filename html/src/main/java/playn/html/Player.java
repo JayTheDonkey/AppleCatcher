@@ -1,10 +1,10 @@
 package playn.html;
 
+import com.google.gwt.user.client.Timer;
 import playn.core.Image;
 
-/**
- * Created by JackassNoonNerd on 9/15/16.
- */
+import java.util.TimerTask;
+
 public class Player extends Entity{
 
     protected Image[] animations;
@@ -32,5 +32,18 @@ public class Player extends Entity{
     public void setScore(int newValue){
         score = newValue;
     }
+
+    Timer anim = new Timer() {
+
+        int state;
+
+        public void run() {
+            if (state == 0) {
+            }
+            else {
+            }
+        }
+
+    };
 
 }
