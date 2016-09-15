@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="gwt" name="GWT">
       <configuration>
-        <setting name="gwtSdkUrl" value="file://$APPLICATION_HOME_DIR$/gwt-2.8.0-rc1" />
+        <setting name="gwtSdkUrl" value="file:///Applications/gwt-2.8.0-rc1" />
       </configuration>
     </facet>
   </component>
