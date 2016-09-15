@@ -228,15 +228,9 @@ pip-log.txt
 =======
 *.idea
 >>>>>>> origin/master
-
-workspace.xml
-
-.idea/workspace.xml
-
-.idea/workspace.xml
+.idea/
 
 *.iml
 
-*.iml
+*.iws
 
-applecatcher.iml
