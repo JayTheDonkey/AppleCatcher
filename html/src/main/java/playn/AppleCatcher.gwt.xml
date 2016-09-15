@@ -1,0 +1,12 @@
+<module rename-to='applecatcher'>
+  <inherits name='playn.Scene'/>
+  <inherits name='AppleCatcherAssets'/>
+  <inherits name="com.google.gwt.user.theme.standard.Standard"/>
+
+  <source path='core'/>
+  <source path='html'/>
+
+  <public path="resources" />
+
+  <entry-point class='playn.html.AppleCatcherHtml'/>
+</module>
