@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62a06dc9-ed26-4c5a-a48a-3376d4dd6f48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gwt_user.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/applecatcher-assets.iml" afterPath="$PROJECT_DIR$/assets/applecatcher-assets.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/applecatcher-html.iml" afterPath="$PROJECT_DIR$/html/applecatcher-html.iml" />
-    </list>
+    <list default="true" id="62a06dc9-ed26-4c5a-a48a-3376d4dd6f48" name="Default" comment="" />
     <ignored path="AppleCatcher.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/core/target/" />
@@ -695,12 +688,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473953616527</updated>
-      <workItem from="1473953619300" duration="95000" />
+      <workItem from="1473953619300" duration="131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95000" />
+    <option name="totallyTimeSpent" value="131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="2584" height="1394" extended-state="6" />
