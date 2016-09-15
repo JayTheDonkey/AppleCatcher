@@ -8,6 +8,7 @@
     <ignored path="$PROJECT_DIR$/assets/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/html/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +28,11 @@
       <file leaf-file-name="AppleCatcherHtml.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/src/main/java/playn/html/AppleCatcherHtml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="432">
               <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -688,12 +691,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473953616527</updated>
-      <workItem from="1473953619300" duration="131000" />
+      <workItem from="1473953619300" duration="413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131000" />
+    <option name="totallyTimeSpent" value="413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="2584" height="1394" extended-state="6" />
@@ -751,9 +754,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html/src/main/java/playn/html/AppleCatcherHtml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="432">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
