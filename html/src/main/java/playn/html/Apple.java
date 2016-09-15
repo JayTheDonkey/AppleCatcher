@@ -18,5 +18,5 @@ public class Apple {
     public int[] getCoords() {
         return coords;
     }
-    
+
 }
