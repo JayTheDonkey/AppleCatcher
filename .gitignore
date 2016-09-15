@@ -222,5 +222,9 @@ pip-log.txt
 ####################
 ###IntelliJ Shit####
 ####################
+<<<<<<< HEAD
 .idea/*
+>>>>>>> origin/master
+=======
+*.idea
 >>>>>>> origin/master
