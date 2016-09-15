@@ -13,7 +13,11 @@
     <ignored path="$PROJECT_DIR$/assets/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/html/target/" />
+<<<<<<< HEAD
     <ignored path="$PROJECT_DIR$/core/target/" />
+=======
+    <ignored path=".idea/dataSources.local.xml" />
+>>>>>>> origin/master
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +31,27 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
+<<<<<<< HEAD
     <favorites_list name="applecatcher" />
+=======
+    <favorites_list name="AppleCatcher" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AppleCatcherHtml.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/src/main/java/playn/html/AppleCatcherHtml.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> origin/master
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -209,15 +233,25 @@
       <changelist id="c2e684c3-a1fd-4a0e-ae89-4398f76c5acb" name="Default" comment="" />
       <created>1473954485187</created>
       <option name="number" value="Default" />
+<<<<<<< HEAD
       <updated>1473954485187</updated>
       <workItem from="1473954486703" duration="64000" />
       <workItem from="1473954553610" duration="229000" />
       <workItem from="1473954881441" duration="195000" />
+=======
+      <option name="presentableId" value="Default" />
+      <updated>1473953616527</updated>
+      <workItem from="1473953619300" duration="413000" />
+>>>>>>> origin/master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="209000" />
+=======
+    <option name="totallyTimeSpent" value="413000" />
+>>>>>>> origin/master
   </component>
   <component name="ToolWindowManager">
     <frame x="205" y="23" width="1400" height="937" extended-state="0" />
@@ -257,4 +291,23 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/src/main/java/playn/html/AppleCatcherHtml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+>>>>>>> origin/master
 </project>
