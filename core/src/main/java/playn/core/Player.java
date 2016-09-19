@@ -1,11 +1,10 @@
-package playn.html;
+package playn.core;
 
 import com.google.gwt.user.client.Timer;
+import playn.core.Entity;
 import playn.core.Image;
 
-import java.util.TimerTask;
-
-public class Player extends Entity{
+public class Player extends Entity {
 
     protected Image[] animations;
     protected int score;

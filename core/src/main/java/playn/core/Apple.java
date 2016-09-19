@@ -1,4 +1,4 @@
-package playn.html;
+package playn.core;
 
 import playn.core.Image;
 
