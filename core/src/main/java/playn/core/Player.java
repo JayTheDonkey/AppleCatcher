@@ -1,5 +1,9 @@
 package playn.core;
 
+<<<<<<< HEAD
+=======
+import com.google.gwt.user.client.Timer;
+>>>>>>> origin/master
 import com.google.gwt.animation.client.AnimationScheduler;
 import playn.core.Entity;
 import playn.core.Image;
@@ -16,6 +20,7 @@ public class Player extends Entity {
         animations = tempAnimations;
         score = tempScore;
     }
+
     public void Animate(){ //call this in game loop when key is press (player is moving)
         image = animations[frameIndex]; //switches between last two images in animations every game tick
         if (frameIndex == 1){
@@ -25,9 +30,11 @@ public class Player extends Entity {
             frameIndex = 1;  //CHARLIE: you should do the timer task magic here
         }
     }
+
     public int getScore() {
         return score;
     }
+
     public void setScore(int newValue){
         score = newValue;
     }
