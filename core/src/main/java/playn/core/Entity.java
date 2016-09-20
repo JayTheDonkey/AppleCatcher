@@ -21,8 +21,16 @@ public class Entity {
         return coords;
     }
 
+    public void setCoords(int[] coords) {
+        this.coords = coords;
+    }
+
     public int[] getVelocity() {
         return velocity;
+    }
+
+    public void setVelocity(int[] velocity) {
+        this.velocity = velocity;
     }
 
     public Image getImage() {
