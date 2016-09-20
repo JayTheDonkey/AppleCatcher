@@ -1,9 +1,7 @@
 package playn.core;
 
-<<<<<<< HEAD
-=======
+
 import com.google.gwt.user.client.Timer;
->>>>>>> origin/master
 import com.google.gwt.animation.client.AnimationScheduler;
 import playn.core.Entity;
 import playn.core.Image;
