@@ -7,7 +7,7 @@ import playn.core.Image;
  */
 public class Apple extends Entity{
 
-    public Apple(int[] tempCoords, int[] tempVelocity, Image tempImage ) {
+    public Apple(double[] tempCoords, double[] tempVelocity, Image tempImage ) {
         super(tempCoords, tempVelocity, tempImage);
 
     }

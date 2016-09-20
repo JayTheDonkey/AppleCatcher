@@ -12,7 +12,7 @@ public class Player extends Entity {
     protected int score;
     protected int frameIndex = 1; //where you are in the animations array
 
-    public Player(int[] tempCoords, int[] tempVelocity, Image tempImage, Image[] tempAnimations, int tempScore){
+    public Player(double[] tempCoords, double[] tempVelocity, Image tempImage, Image[] tempAnimations, int tempScore){
         super( tempCoords, tempVelocity, tempImage);
 
         animations = tempAnimations;
