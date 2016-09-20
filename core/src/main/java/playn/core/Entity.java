@@ -2,9 +2,6 @@ package playn.core;
 
 import playn.core.Image;
 
-/**
- * Created by JackassNoonNerd on 9/15/16.
- */
 public class Entity {
 
     protected double[] coords = new double[2];
