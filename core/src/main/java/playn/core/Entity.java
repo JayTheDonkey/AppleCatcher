@@ -7,11 +7,11 @@ import playn.core.Image;
  */
 public class Entity {
 
-    protected int[] coords = new int[2];
-    protected int[] velocity = new int[2];
+    protected double[] coords = new double[2];
+    protected double[] velocity = new double[2];
     protected Image image;
 
-    public Entity(int[] tempCoords, int[] tempVelocity, Image tempImage ){
+    public Entity(double[] tempCoords, double[] tempVelocity, Image tempImage ){
         coords = tempCoords;
         velocity = tempVelocity;
         image = tempImage;
@@ -21,7 +21,7 @@ public class Entity {
         return coords;
     }
 
-    public void setCoords(int[] coords) {
+    public void setCoords(double[] coords) {
         this.coords = coords;
     }
 
@@ -29,7 +29,7 @@ public class Entity {
         return velocity;
     }
 
-    public void setVelocity(int[] velocity) {
+    public void setVelocity(double[] velocity) {
         this.velocity = velocity;
     }
 
