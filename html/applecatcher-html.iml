@@ -36,11 +36,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="applecatcher-core" />
     <orderEntry type="library" name="Maven: io.playn:playn-scene:2.0-rc3" level="project" />
-    <orderEntry type="library" name="Maven: com.google.gwt:gwt-dev:2.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.ow2.asm:asm:5.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.ow2.asm:asm-util:5.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.ow2.asm:asm-tree:5.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.ow2.asm:asm-commons:5.0.3" level="project" />
     <orderEntry type="module" module-name="applecatcher-core" />
     <orderEntry type="module" module-name="applecatcher-assets" />
     <orderEntry type="library" name="Maven: io.playn:playn-scene:sources:2.0-rc3" level="project" />
@@ -57,6 +52,11 @@
     <orderEntry type="library" name="Maven: com.allen-sauer.gwt.voices:gwt-voices:3.3.2" level="project" />
     <orderEntry type="library" name="Maven: io.playn:playn-html:sources:2.0-rc3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.gwt:gwt-codeserver:2.7.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.gwt:gwt-dev:2.7.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.ow2.asm:asm:5.0.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.ow2.asm:asm-util:5.0.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.ow2.asm:asm-tree:5.0.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.ow2.asm:asm-commons:5.0.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>

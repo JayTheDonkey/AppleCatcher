@@ -1,6 +1,6 @@
 package playn.core;
 
-import com.google.gwt.user.client.Timer;
+import com.google.gwt.animation.client.AnimationScheduler;
 import playn.core.Entity;
 import playn.core.Image;
 
@@ -32,17 +32,6 @@ public class Player extends Entity {
         score = newValue;
     }
 
-    Timer anim = new Timer() {
-
-        int state;
-
-        public void run() {
-            if (state == 0) {
-            }
-            else {
-            }
-        }
-
-    };
+    
 
 }
