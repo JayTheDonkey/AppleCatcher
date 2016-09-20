@@ -36,6 +36,7 @@ public class Entity {
     public Image getImage() {
         return image;
     }
+
     public void move(){
         coords[0]+= velocity[0];
         coords[1]+= velocity[1];
