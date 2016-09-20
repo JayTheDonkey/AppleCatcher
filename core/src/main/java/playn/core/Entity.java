@@ -18,7 +18,7 @@ public class Entity {
     }
 
     public int[] getCoords() { //X coord is the int at index zero of the coords array
-        return coords;
+        return new int[] {(int)coords[0], (int)coords[1]};
     }
 
     public void setCoords(double[] coords) {
@@ -26,7 +26,7 @@ public class Entity {
     }
 
     public int[] getVelocity() {
-        return velocity;
+        return new int[] {(int)velocity[0], (int)velocity[1]};
     }
 
     public void setVelocity(double[] velocity) {
