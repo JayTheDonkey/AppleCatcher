@@ -1,6 +1,9 @@
 package playn.core;
 
 import playn.core.Image;
+import playn.scene.GroupLayer;
+import playn.scene.ImageLayer;
+import playn.scene.Layer;
 
 public abstract class Entity {
 
@@ -8,13 +11,16 @@ public abstract class Entity {
     protected double[] velocity = new double[2];
     protected Image image;
 
-    public Entity(double[] tempCoords, double[] tempVelocity, Image tempImage ){
+    public Entity(GroupLayer gameLayer, double[] tempCoords, double[] tempVelocity, Image tempImage ){
         coords = tempCoords;
         velocity = tempVelocity;
         image = tempImage;
+        ImageLayer layer = new ImageLayer(this.image);
+        layer.setOrigin(ImageLayer.Origin.CENTER);
+        gameLayer.addAt(layer,(float)this.x(),(float)this.y());
     }
 
-    public double x() { //X coord is the int at index zero of the coords array
+    public double x() {
         return coords[0];
     }
 

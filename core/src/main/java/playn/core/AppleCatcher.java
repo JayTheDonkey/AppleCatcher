@@ -4,6 +4,7 @@ import playn.core.Image;
 import playn.core.Platform;
 import playn.scene.ImageLayer;
 import playn.scene.SceneGame;
+import playn.scene.GroupLayer;
 
 import java.util.ArrayList;
 
@@ -11,8 +12,9 @@ public class AppleCatcher extends SceneGame {
 
   protected Player player;
   protected ArrayList<Apple> apples;
-  protected int appleTime;
+  protected int appleTime = 90; //starting number of game ticks per apple spawn
   protected int updateTicks;
+  protected GroupLayer gameLayer;
 
   public AppleCatcher (Platform plat) {
     super(plat, 33); // update our "simulation" 33ms (30 times per second)
@@ -22,16 +24,13 @@ public class AppleCatcher extends SceneGame {
     ImageLayer bgLayer = new ImageLayer(bgImage);
     // scale the background to fill the screen
     bgLayer.setSize(plat.graphics().viewSize);
-
-    player = new Player(new double[]{0, 0}, new double[]{0, 0}, plat.assets().getImage("images/player.png"),
-            new Image[] {
-                    plat.assets().getImage("images/player.png"),
-                    plat.assets().getImage("images/playerMoving1.png"),
-                    plat.assets().getImage("images/playerMoving2.png")},
-            0);
-
     rootLayer.add(bgLayer);
+    rootLayer.add(gameLayer);
+
+    player = new Player(gameLayer, new double[]{0, 0}, new double[]{0, 0}, plat.assets().getImage("images/player.png"),0);
+
   }
+
 
   public boolean checkCollision(Apple apple, Player player){
     double[] appleCenter ={apple.x()+apple.getImage().width(),apple.y()+apple.getImage().height()};
@@ -51,7 +50,7 @@ public class AppleCatcher extends SceneGame {
     super.update(clock);
     //check to see if its time to add another apple
     if (updateTicks == appleTime){
-      apples.add(new Apple(new double[]{Math.random()*800, Math.random()*600}, new double[2], plat.assets().getImage("images/apple.png"))); //TODO make the apple spawn relative to game windows size
+      apples.add(new Apple(gameLayer,new double[]{Math.random()*800, 0}, new double[2], plat.assets().getImage("images/apple.png"))); //TODO make the apple spawn relative to game windows size
       updateTicks =0;
       updateAppleTime(player.getScore());
     }
@@ -67,6 +66,8 @@ public class AppleCatcher extends SceneGame {
       apples.get(i).move();
     }
     player.move();
+
+    updateTicks++;
   }
 
   @Override public void paint(Clock clock){
