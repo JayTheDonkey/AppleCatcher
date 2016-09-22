@@ -36,6 +36,9 @@ public class Player extends Entity {
     public void setScore(int newValue){
         score = newValue;
     }
+    public void incrementScore(int value){
+        score += value;
+    }
 
     
 

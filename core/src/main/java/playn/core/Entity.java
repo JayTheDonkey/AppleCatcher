@@ -2,7 +2,7 @@ package playn.core;
 
 import playn.core.Image;
 
-public class Entity {
+public abstract class Entity {
 
     protected double[] coords = new double[2];
     protected double[] velocity = new double[2];
@@ -14,8 +14,12 @@ public class Entity {
         image = tempImage;
     }
 
-    public int[] getCoords() { //X coord is the int at index zero of the coords array
-        return new int[] {(int)coords[0], (int)coords[1]};
+    public double x() { //X coord is the int at index zero of the coords array
+        return coords[0];
+    }
+
+    public double y(){
+        return coords[1];
     }
 
     public void setCoords(double[] coords) {
