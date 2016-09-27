@@ -33,13 +33,9 @@ public class AppleCatcher extends SceneGame {
 
 
   public boolean checkCollision(Apple apple, Player player){
+
     double[] appleCenter ={apple.x()+apple.getImage().width(),apple.y()+apple.getImage().height()};
-    if ((appleCenter[0] > player.x() && appleCenter[0] < player.x()+player.getImage().width())&&(appleCenter[1] > player.y() && appleCenter[1] < player.y()+player.getImage().height())){
-      return true;
-    }
-    else {
-      return false;
-    }
+    return ((appleCenter[0] > player.x() && appleCenter[0] < player.x()+player.getImage().width())&&(appleCenter[1] > player.y() && appleCenter[1] < player.y()+player.getImage().height()));
   }
 
   public void updateAppleTime(int score){
